@@ -51,12 +51,8 @@ function App() {
           : die
       }))
     } else {
-      setNumArray(oldDice => {
-        for(let i = 0; i < oldDice.length; i++){
-          return allNewDice();
-        }
-      })
-      setTenzies(false)
+      setNumArray(allNewDice());
+      setTenzies(false);
     }
   }
 
