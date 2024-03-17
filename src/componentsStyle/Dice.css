@@ -1,0 +1,13 @@
+
+.dice{
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 5px 5px rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.dice span{
+  font-size: 40px;
+}
